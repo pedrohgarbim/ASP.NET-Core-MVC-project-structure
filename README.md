@@ -1,4 +1,4 @@
-# 📓 DiaryApp - Estrutura Completa do Projeto ASP.NET Core MVC
+# 📓 Estrutura Completa do Projeto ASP.NET Core MVC
 
 Este documento explica a estrutura do projeto **DiaryApp** e detalha a função de cada pasta e arquivo presente. O objetivo é facilitar o entendimento do funcionamento de uma aplicação **ASP.NET Core MVC**.
 
