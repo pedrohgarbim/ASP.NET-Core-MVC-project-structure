@@ -74,7 +74,7 @@ Os **services** são responsáveis por adicionar funcionalidades reutilizáveis,
 
 ## 🗺️ Routing 
 
-O **routing** define como as URLs são mapeadas para as ações dos controladores. É o mecanismo que mapeia as requisições HTTP para controladores e ações específicos com base na URL. A rota padrão configurada é:
+O **routing** define como as URLs são mapeadas para as ações dos controladores. É o mecanismo que mapeia as requisições HTTP para controladores e ações específicos com base na URL. Portanto o roteamento direciona as solicitações para as ações e controlesde forma correta. A rota padrão configurada é:
 
 - `{controller=Home}/{action=Index}/{id?}`: Roteia para o controlador `Home` e a ação `Index`, com um parâmetro opcional `id`.
 
