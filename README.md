@@ -78,4 +78,8 @@ O **routing** define como as URLs são mapeadas para as ações dos controladore
 
 - `{controller=Home}/{action=Index}/{id?}`: Roteia para o controlador `Home` e a ação `Index`, com um parâmetro opcional `id`.
 
----
+## Em resumo:
+**Program.cs:** inicializa o aplicativo
+**DependencyInjection(DI):** gerenciamento de dependencias de serviços
+**Middleware:** define o pipeline de processamento de solicitações
+**Services e Routing:** configurados para atender as solicitações 
