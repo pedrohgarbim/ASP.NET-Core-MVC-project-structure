@@ -59,7 +59,7 @@ Esse arquivo define como a aplicação será executada em diferentes ambientes, 
 O arquivo **Program.cs** é o ponto de entrada da aplicação. Ele define o host da aplicação e contém a lógica para inicializar o servidor, dependenciasm, configurar middlewares e serviços essenciais.
 ## ⚙️ Middleware 
 
-O **middleware** é a parte essencial que processa cada requisição na aplicação. Ele permite adicionar lógica de segurança, roteamento e mais. É uma série de componentes (ou funções) que processam as requisições HTTP no pipeline da aplicação. Cada middleware pode fazer algo com a requisição e decidir se deve passar para o próximo componente.
+O **middleware** é a parte essencial que processa cada requisição na aplicação. Ele permite adicionar lógica de segurança, roteamento e mais. É uma série de componentes (ou funções) que processam as requisições HTTP no pipeline da aplicação. Cada middleware pode fazer algo com a requisição e decidir se deve passar para o próximo componente, Basicamente Middleware diz em que ordem as coisas devem ser executadas.
 
 - `app.UseHttpsRedirection()`: Redireciona requisições HTTP para HTTPS para segurança 🔐.
 - `app.UseRouting()`: Habilita o sistema de roteamento de URLs 🗺️.
