@@ -57,7 +57,7 @@ Esse arquivo define como a aplicação será executada em diferentes ambientes, 
 
 
 O arquivo **Program.cs** é o ponto de entrada da aplicação. Ele define o host da aplicação e contém a lógica para inicializar o servidor, dependenciasm, configurar middlewares e serviços essenciais.
-## Middleware ⚙️
+## ⚙️ Middleware 
 
 O **middleware** é a parte essencial que processa cada requisição na aplicação. Ele permite adicionar lógica de segurança, roteamento e mais. É uma série de componentes (ou funções) que processam as requisições HTTP no pipeline da aplicação. Cada middleware pode fazer algo com a requisição e decidir se deve passar para o próximo componente.
 
@@ -66,13 +66,13 @@ O **middleware** é a parte essencial que processa cada requisição na aplicaç
 - `app.UseAuthorization()`: Checa as permissões do usuário para acessar recursos 🔒.
 - `app.UseHsts()`: Habilita a segurança HSTS para garantir que sempre usamos HTTPS 📡.
 
-## Services 🌟
+## 🌟 Services 
 
 Os **services** são responsáveis por adicionar funcionalidades reutilizáveis, como a adição de **controllers com views**. São objetos que fornecem funcionalidades reutilizáveis na aplicação. Eles são configurados em um container de injeção de dependência e podem ser injetados em várias partes da aplicação. Aqui, usamos:
 
 - `builder.Services.AddControllersWithViews()`: Habilita o uso de **controllers** e **views** para renderizar HTML dinâmico.
 
-## Routing 🗺️
+## 🗺️ Routing 
 
 O **routing** define como as URLs são mapeadas para as ações dos controladores. É o mecanismo que mapeia as requisições HTTP para controladores e ações específicos com base na URL. A rota padrão configurada é:
 
