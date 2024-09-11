@@ -1,6 +1,7 @@
 # 📓 Estrutura Completa do Projeto ASP.NET Core MVC
 
-Este documento explica a estrutura do projeto **DiaryApp** e detalha a função de cada pasta e arquivo presente. O objetivo é facilitar o entendimento do funcionamento de uma aplicação **ASP.NET Core MVC**.
+Este documento explica a estrutura inicial do projeto **MyDiaryApp** e detalha a função de cada pasta e arquivo ao criar o projeto com template ASP.NET Core Web App (MVC). O objetivo desse repositório é facilitar o entendimento do funcionamento de uma aplicação **ASP.NET Core MVC**. Para vizualizar o projeto completo
+do **MyDiaryApp** seguir para o link https://github.com/pedrohgarbim/MyDiary
 
 ## 🖥️ O que é ASP.NET Core MVC?
 
